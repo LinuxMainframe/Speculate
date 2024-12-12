@@ -1,0 +1,53 @@
+_________________________________________________________
+PYTHON PACKAGE LIST:
+_________________________________________________________
+Molecular Simulation & Electronic Structure Calculations
+
+    PySCF: A Python package for quantum chemistry, particularly focused on DFT and TD-DFT methods, molecular simulations, and electronic structure calculations
+    aizynthfinder: A tool for automated retrosynthetic analysis and organic synthesis planning, often used in combination with molecular modeling
+    batchcalculator: A computational tool that runs DFT calculations in batch mode, typically interfacing with quantum chemistry programs such as Gaussian or ORCA
+    phonopy: A vibrational properties calculation tool for phonon dispersion relations, thermodynamics, and simulations
+
+Chemoinformatics & Molecular Handling
+
+    RDKit: A collection of cheminformatics tools for handling molecular structures, descriptors, and similarity calculations
+    OpenBabel: An open-source chemistry toolkit for interconverting file formats and processing molecular data
+    mendeleev: A Python package for working with the periodic table and elements, useful for tasks like element-based calculations and properties
+    molmass: A package for calculating molecular mass and elemental composition of molecules
+    nmrglue: A library for processing NMR data, including integration and peak fitting 
+    nmrsim: A package focused on simulating NMR spectra
+
+Data Analysis & Numerical Methods
+
+    Pandas: A Python library for data manipulation and analysis, especially for handling tabular data
+    SciPy: A Python library for scientific and numerical computing, providing functions for optimization, integration, interpolation, and other calculations
+    NumPy: A fundamental package for numerical computing in Python, widely used for array handling and mathematical operations
+    symfit: A Python package for curve fitting using symbolic mathematical expressions
+
+Chemistry Data & Analysis Tools
+
+    ChemPy: A Python package for basic chemistry calculations such as stoichiometry, concentration, and unit conversions
+    basis_set_exchange: A repository of available basis sets for quantum chemical calculations 
+    cclib: A Python library for parsing and analyzing output from quantum chemistry programs like Gaussian, ORCA, and others 
+    ccinput: A tool for handling input files for computational chemistry programs
+    ccdc: The Cambridge Crystallographic Data Centre provides crystallographic data and analysis tools 
+
+Thermodynamics, Kinetics & Chemical Engineering
+
+    CALPHAD: A package for thermodynamic calculations, specifically calculation of phase diagrams and material properties based on the CALPHAD approach
+    CANTERA: A suite for thermodynamic, kinetics, and transport processes in reactive systems, useful for chemical engineering and combustion simulations 
+
+Spectroscopic Data Analysis & Baseline Correction
+
+    GoodVibes: A Python tool for analyzing and processing vibrational data and spectra, focusing on vibration frequencies and related thermodynamics
+    pybaselines: A Python tool for performing baseline correction on spectral data, such as NMR or UV-Vis
+
+Miscellaneous/Other
+
+    cctk: A chemistry toolkit that combines various aspects of molecular and quantum chemistry analysis
+
+_________________________________________________________
+EXTERNAL PACKAGE LIST:
+_________________________________________________________
+SIESTA quantum chemistry package - Handles plane wave time domain calculations rather than frequency domain calculations, to complement PySCF
+
