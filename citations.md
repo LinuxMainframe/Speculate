@@ -94,6 +94,26 @@ DOI: [10.1107/S1600576724005934](https://doi.org/10.1107/S1600576724005934)
 *Journal of Open Research Software*. **5**(1), p.1.  
 DOI: [10.5334/jors.140](https://doi.org/10.5334/jors.140)
 
-### Cantera
-**Goodwin, D. G., Moffat, H. K., Schoegl, I., Speth, R. L., & Weber**  
-*(Reference incomplete)*  
+### Cantera 
+**Goodwin, D. G.**, Moffat, H. K., Schoegl, I., Speth, R. L., & Weber, B. W. (2023). 
+*Cantera: An Object-oriented Software Toolkit for Chemical Kinetics, Thermodynamics, and Transport Processes (3.0.0)*. Zenodo. 
+DOI: [https://doi.org/10.5281/zenodo.8137090](https://doi.org/10.5281/zenodo.8137090)
+
+### GoodVibes
+**Luchini, G.**; Alegre-Requena, J. V.; Funes-Ardoiz, I.; Paton, R. S. 
+*GoodVibes: Automated Thermochemistry for Heterogeneous Computational Chemistry Data*. *F1000Research*, 2020, 9, 291. 
+DOI: [https://doi.org/10.12688/f1000research.22758.1](https://doi.org/10.12688/f1000research.22758.1)
+
+### pybaselines 
+**Erb, D.** 
+*pybaselines: A Python library of algorithms for the baseline correction of experimental data (Version 1.1.0)* [Computer software]. GitHub. 
+Website: [https://github.com/derb12/pybaselines](https://github.com/derb12/pybaselines)
+
+### cctk
+**Wagen, C. C.**; Kwan, E. E. *cctk* (2020). GitHub. 
+Website: [https://github.com/ekwan/cctk](https://github.com/ekwan/cctk)
+
+### SIESTA Quantum Mechanics Software
+**J. M. Soler**, E. Artacho, J. D. Gale, A. García, J. Junquera, P. Ordejón, and D. Sánchez-Portal, 
+*The SIESTA method for ab initio order-N materials simulation*. *Journal of Physics: Condensed Matter*, 14(11), 2745–2779 (2002). 
+DOI: [https://doi.org/10.1088/0953-8984/14/11/302](https://doi.org/10.1088/0953-8984/14/11/302)
