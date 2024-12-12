@@ -1,4 +1,4 @@
-# Speculate: Revolutionizing Computational Chemistry
+# Speculate: Open-Source Computational Chemistry Workflow
 
 **Speculate** is an open-source Python platform designed to transform computational and theoretical chemistry workflows. Tailored for researchers, it bridges the gap between experimental and computational work by offering:
 
