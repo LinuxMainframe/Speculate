@@ -15,6 +15,12 @@ DOI: [10.1186/s13321-020-00472-1](https://doi.org/10.1186/s13321-020-00472-1)
 RDKit: Open-source cheminformatics  
 Website: [https://www.rdkit.org](https://www.rdkit.org)
 
+### Phonopy
+“First-principles Phonon Calculations with Phonopy and Phono3py",  
+**Atsushi Togo**, *J. Phys. Soc. Jpn.*, **92**, 012001-1-21 (2023)  
+“Implementation strategies in phonopy and phono3py”,  
+**Atsushi Togo**, Laurent Chaput, Terumasa Tadano, and Isao Tanaka, *J. Phys. Condens. Matter* **35**, 353001-1-22 (2023)
+
 ### OpenBabel
 **Noel M. O’Boyle**, Michael Banck, Craig A. James, Chris Morley, Tim Vandermeersch, Geoffrey R. Hutchison  
 Open Babel: An open chemical toolbox  
