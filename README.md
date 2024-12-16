@@ -1,6 +1,6 @@
-# Speculate: Open-Source Computational Chemistry Workflow
+# SpeculateQM: Open-Source Computational Chemistry Workflow
 
-**Speculate** is an open-source Python platform designed to optimize workflows in computational and theoretical chemistry. It provides researchers with the tools to bridge the divide between experimental and computational work, making complex tasks simpler and more intuitive.
+**SpeculateQM** is an open-source Python platform designed to optimize workflows in computational and theoretical chemistry. It provides researchers with the tools to bridge the divide between experimental and computational work, making complex tasks simpler and more intuitive.
 
 ## Key Features
 
@@ -11,38 +11,39 @@
   Effortlessly replicate and refine literature methods, ensuring confidence in your findings.
 
 - **Comprehensive Tool Integration**  
-  Leverage Speculate's compatibility with software like **ORCA**, **Gaussian**, and other industry-standard tools.
+  Leverage SpeculateQM's compatibility with software like **ORCA**, **Gaussian**, and other industry-standard tools.
 
 - **Versatile Functionality**  
   - Develop kinetic models from experimental data  
   - Investigate molecular properties and reaction pathways  
   - Explore physical and spectroscopic characteristics in detail  
 
-## Why Use Speculate?
+## Why Use SpeculateQM?
 
-As a former benchtop chemist who transitioned into computational chemistry, I understand how daunting it can be to decode technical documentation or replicate computational workflows. The motivation for **Speculate** arose from my own challenges while working with **Titanium Catecholates**—a project requiring computational insights to address puzzling findings with limited literature data.
+As a former benchtop chemist who transitioned into computational chemistry, I understand how daunting it can be to decode technical documentation or replicate computational workflows. The motivation for **SpeculateQM** arose from my own challenges while working with **Titanium Catecholates**—a project requiring computational insights to address puzzling findings with limited literature data.
 
-Speculate is designed for those like me: researchers who want to use computational methods to deepen their understanding without needing years of computational expertise. It’s a tool to help you focus on science rather than wrestling with unwieldy software setups.
+SpeculateQM is designed for those like me: researchers who want to use computational methods to deepen their understanding without needing years of computational expertise. It’s a tool to help you focus on science rather than wrestling with unwieldy software setups.
 
-Whether you're a student, a seasoned experimentalist venturing into computation, or a computational chemist seeking a more intuitive workflow, Speculate empowers you to bridge the gap between experiment and theory.
+Whether you're a student, a seasoned experimentalist venturing into computation, or a computational chemist seeking a more intuitive workflow, SpeculateQM empowers you to bridge the gap between experiment and theory.
 
 
 
 
 ## Preliminary Development Timeline and Plan of Action
 
-This timeline outlines the planned development process for **Speculate**, focusing on integrating Python libraries, establishing a user-friendly GUI, and maintaining good programming practices. Contributions from the community are welcome at every stage.
+This timeline outlines the planned development process for **SpeculateQM**, focusing on integrating Python libraries, establishing a user-friendly GUI, and maintaining good programming practices. Contributions from the community are welcome at every stage.
 
 ### Phase 1: Core Library Integration (Months 1-3)
 
-1. **Research and Selection** (Weeks 1-2)  
+~~1. **Research and Selection** (Weeks 1-2)~~(Done)  
    - Identify Python libraries essential for computational chemistry workflows:
      - Core Libraries: `PySCF`, `SciPy`, `NumPy`, `ChemPy`, `RDKit`
      - Supporting Libraries: `pandas`, `mendeleev`, `molmass`, `pybaselines`
 
 2. **Module Creation and Testing** (Weeks 3-8)  
-   - Write Python wrappers for each library to standardize their usage within Speculate.
+   - Write Python integration for each library to standardize their usage within SpeculateQM.
    - Test individual modules with sample data to ensure compatibility and robustness.
+   - Connect Qt Signals and Slots to  the packages and their gui elements.
 
 3. **Data Handling and Conversion** (Weeks 9-12)  
    - Implement standardized methods for importing, processing, and exporting data.
@@ -52,11 +53,11 @@ This timeline outlines the planned development process for **Speculate**, focusi
 
 ### Phase 2: Application Architecture and GUI Development (Months 4-6)
 
-1. **Define Application Structure** (Weeks 13-14)  
+~~1. **Define Application Structure** (Weeks 13-14)~~(DONE)  
    - Establish a modular architecture to separate backend (computations) and frontend (GUI).  
    - Use **PyQt** for the GUI framework.
 
-2. **Design GUI Mockups** (Weeks 15-16)  
+2. **Design GUI Mockups** (Weeks 15-16) (In Progress)  
    - Create wireframes for major components:
      - Home screen with navigation menu
      - Workflow selection screen (e.g., thermodynamics, kinetics, spectroscopy)
@@ -82,10 +83,10 @@ This timeline outlines the planned development process for **Speculate**, focusi
 
 2. **SIESTA Wrapper Development** (Weeks 29-32)  
    - Develop a Python wrapper to handle SIESTA input/output workflows.
-   - Ensure compatibility with existing Speculate modules for seamless integration.
+   - Ensure compatibility with existing SpeculateQM modules for seamless integration.
 
 3. **Testing and Validation** (Weeks 33-36)  
-   - Validate Speculate’s functionality with sample data from literature.
+   - Validate SpeculateQM’s functionality with sample data from literature.
    - Perform rigorous testing to ensure reproducibility of results.
 
 ---
@@ -102,11 +103,11 @@ This timeline outlines the planned development process for **Speculate**, focusi
 
 3. **Final Release** (Weeks 45-48)  
    - Implement community-driven improvements.
-   - Launch the first stable version of Speculate.
+   - Launch the first stable version of SpeculateQM.
 
 ---
 
-### Contributing to Speculate
+### Contributing to SpeculateQM
 
 Community members can contribute by:
 - Suggesting features and improvements
@@ -114,4 +115,4 @@ Community members can contribute by:
 - Contributing code or fixing bugs
 - Writing tutorials or documenting workflows
 
-Speculate is committed to making computational chemistry accessible and efficient. Join us in building a tool that empowers chemists around the globe!
+SpeculateQM is committed to making computational chemistry accessible and efficient. Join us in building a tool that empowers chemists around the globe!
