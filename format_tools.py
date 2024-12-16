@@ -1,3 +1,5 @@
+#import libraries in main file, not here. The libaries used depend on what the makeup of your Qt application
+
 def find_and_update_widgets(self, widget_type, name_pattern, iterator_range=None, action=None):
     """
     Find and update widgets based on a name pattern and type.
