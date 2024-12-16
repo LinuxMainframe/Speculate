@@ -1,5 +1,3 @@
-#import libraries in main file, not here. The libaries used depend on what the makeup of your Qt application
-
 def find_and_update_widgets(self, widget_type, name_pattern, iterator_range=None, action=None):
     """
     Find and update widgets based on a name pattern and type.
@@ -13,8 +11,36 @@ def find_and_update_widgets(self, widget_type, name_pattern, iterator_range=None
               If None, a default print action will be used.
 
     Example Usage:
-    find_and_update_widgets(self, QLabel, "col{}_info", range(1, 6), 
-                            lambda widget, i: widget.setText(f"Info for Column {i}"))
+    "Update Text for Dynamic Labels"
+    find_and_update_widgets(
+        self, 
+        QLabel, 
+        "col{}_info", 
+        range(1, 6), 
+        lambda widget, i: widget.setText(f"Info for Column {i}")
+    )
+    
+    OR
+    
+    "Apply Styles to Widgets by Name"
+    find_and_update_widgets(
+        self, 
+        QLabel, 
+        "label_{}_title", 
+        range(1, 10), 
+        lambda widget, i: widget.setStyleSheet("color: blue; font-weight: bold;")
+    )
+    
+    OR
+    
+    "Find a Single Widget by Static Name"
+    find_and_update_widgets(
+        self, 
+        QLabel, 
+        "static_label_name", 
+        action=lambda widget, _: print(f"Found widget: {widget.objectName()}")
+    )
+
     """
     # Find all widgets of the given type
     widgets = self.findChildren(widget_type)
