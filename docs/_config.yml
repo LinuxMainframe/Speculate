@@ -1,5 +1,5 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [SpeculateQM]
-description: [SpeculateQM is a new and in-development python project aimed at creating a new workflow for undergrads, grads, researchers, and those who wish to spend more time doing and less time coding and fixing errors. ]
+title: Hacker theme
+description: Hacker is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
