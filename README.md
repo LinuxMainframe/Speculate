@@ -106,6 +106,10 @@ This timeline outlines the planned development process for **SpeculateQM**, focu
    - Launch the first stable version of SpeculateQM.
 
 ---
+## Additional Documentation
+- [Attribution](./ketcher-standalone-2.26.0/ATTRIBUTION.md): Details on Ketcher 2.26.0 Standalone package, which is used as an embedded webapp.
+- [Modifications](./ketcher-standalone-2.26.0/MODIFICATIONS.md): Changes made to Ketcher 2.26.0 Standalone package to make it compatible with this project.
+---
 
 ### Contributing to SpeculateQM
 
