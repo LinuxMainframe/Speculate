@@ -8,6 +8,11 @@ This project incorporates third-party software as listed below. These components
 - **Repository**: [Ketcher GitHub Repository](https://github.com/epam/ketcher)
 - **License**: MIT License
 - **Modifications**: 
-  - Added a polyfill to `index.html` for compatibility with Qt's WebView system. This polyfill ensures compatibility for older JavaScript engines that lack the `Object.hasOwn` function.
+  - Added a polyfill to `index.html` for compatibility with Qt's WebView system. This polyfill ensures compatibility with JavaScript environments that lack the `Object.hasOwn` function.
 
 ### License Text (Ketcher)
+The full text of the license for Ketcher can be viewed in the official repository:  
+[MIT License - Ketcher GitHub Repository](https://github.com/epam/ketcher/blob/master/LICENSE)
+
+---
+
