@@ -33,77 +33,40 @@ Whether you're a student, a seasoned experimentalist venturing into computation,
 
 This timeline outlines the planned development process for **SpeculateQM**, focusing on integrating Python libraries, establishing a user-friendly GUI, and maintaining good programming practices. Contributions from the community are welcome at every stage.
 
-### Phase 1: Core Library Integration (Months 1-3)
+## Project Timeline and Workflow
 
-~~1. **Research and Selection** (Weeks 1-2)~~(Done)  
-   - Identify Python libraries essential for computational chemistry workflows:
-     - Core Libraries: `PySCF`, `SciPy`, `NumPy`, `ChemPy`, `RDKit`
-     - Supporting Libraries: `pandas`, `mendeleev`, `molmass`, `pybaselines`
+This section outlines the development steps and goals for the application. The focus is on creating a functional, user-friendly Qt-based application that integrates Ketcher and various Python tools/libraries for enhanced user interactivity.
 
-2. **Module Creation and Testing** (Weeks 3-8)  
-   - Write Python integration for each library to standardize their usage within SpeculateQM.
-   - Test individual modules with sample data to ensure compatibility and robustness.
-   - Connect Qt Signals and Slots to  the packages and their gui elements.
+### Current Progress
+- **Qt Applications and Ketcher Integration**: 
+  - Successfully created Qt applications and integrated Ketcher as a chemical structure editor within the application.
+  - Developed ways to enable basic user interactivity with the application and tested functionality.
 
-3. **Data Handling and Conversion** (Weeks 9-12)  
-   - Implement standardized methods for importing, processing, and exporting data.
-   - Include format compatibility (e.g., Gaussian log files, MOL files, SDF files).
+### Next Steps
+1. **Tool and Library Integration**: 
+   - Begin integrating Python tools and libraries into the application, one by one. This includes ensuring smooth communication between the GUI and each tool, as well as testing compatibility and functionality.
+   - Prioritize tools based on their complexity and importance to the application's core functionality.
 
----
+2. **GUI Design and Development**:
+   - Move from placeholder GUI testing to designing the actual layout for the application.
+   - Avoid overwhelming users with excessive menus by adopting a clean, tabbed menu layout at the top of the application (e.g., "File", "Save", and other options).
+   - Implement intuitive navigation to streamline the user experience and reduce clutter.
 
-### Phase 2: Application Architecture and GUI Development (Months 4-6)
+3. **Feature Testing and Refinement**:
+   - Continuously test individual features and their integration with the GUI to ensure they work as expected.
+   - Make iterative adjustments to improve usability and reliability based on testing outcomes.
 
-~~1. **Define Application Structure** (Weeks 13-14)~~(DONE)  
-   - Establish a modular architecture to separate backend (computations) and frontend (GUI).  
-   - Use **PyQt** for the GUI framework.
+4. **Final Integration and Polishing**:
+   - Complete the integration of all planned tools and libraries.
+   - Perform thorough testing to identify and resolve any remaining issues.
+   - Refine the GUI and overall application to create a polished, user-friendly experience.
 
-2. **Design GUI Mockups** (Weeks 15-16) (In Progress)  
-   - Create wireframes for major components:
-     - Home screen with navigation menu
-     - Workflow selection screen (e.g., thermodynamics, kinetics, spectroscopy)
-     - Data visualization and result interpretation panels
+### Long-Term Goals
+- Ensure the application provides seamless interactivity and functionality for its intended use cases.
+- Optimize the user interface to maximize efficiency and ease of use.
+- Prepare the project for potential distribution or further development as needed.
 
-3. **Develop GUI Framework** (Weeks 17-22)  
-   - Implement basic navigation and functionality within the GUI.
-   - Integrate PyQt components for dynamic interactions, such as dropdown menus, tabs, and file explorers.
-
-4. **Backend Integration** (Weeks 23-24)  
-   - Link the core Python modules to GUI actions.  
-   - Ensure that computational workflows trigger appropriate backend processes.
-
----
-
-### Phase 3: Advanced Features and SIESTA Wrapper Integration (Months 7-9)
-
-1. **Advanced Module Development** (Weeks 25-28)  
-   - Add advanced functionality:
-     - Real-time TD-DFT simulations
-     - Basis set optimization tools
-     - Spectroscopic data analysis workflows
-
-2. **SIESTA Wrapper Development** (Weeks 29-32)  
-   - Develop a Python wrapper to handle SIESTA input/output workflows.
-   - Ensure compatibility with existing SpeculateQM modules for seamless integration.
-
-3. **Testing and Validation** (Weeks 33-36)  
-   - Validate SpeculateQM’s functionality with sample data from literature.
-   - Perform rigorous testing to ensure reproducibility of results.
-
----
-
-### Phase 4: Community Feedback and Refinement (Months 10-12)
-
-1. **Open Beta Release** (Weeks 37-40)  
-   - Release a beta version on GitHub.
-   - Encourage community contributions and feedback.
-
-2. **Documentation and Tutorials** (Weeks 41-44)  
-   - Write comprehensive documentation for users and developers.  
-   - Create video tutorials and guides for common workflows.
-
-3. **Final Release** (Weeks 45-48)  
-   - Implement community-driven improvements.
-   - Launch the first stable version of SpeculateQM.
+By following this workflow, the application will evolve into a cohesive and robust tool that integrates key functionalities with an intuitive interface.
 
 ---
 ## Additional Documentation
